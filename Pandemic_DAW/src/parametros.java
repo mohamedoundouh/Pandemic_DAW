@@ -169,7 +169,7 @@ public class parametros {
 					System.out.println("\nCambios guardados con exito.");
 				}
 			}
-			////////////////////////////////////////////////////////////////////////////////////////
+			////////////////////////////
 			else if (opcion == 4) {
 				Element parametros = (Element) nodeList.item(0);
 				System.out.print("Numero de brotes para perder el juego (actual: "
