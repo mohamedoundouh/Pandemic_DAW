@@ -56,12 +56,15 @@ public class parametros {
 	                // Mostrar los parámetros actuales del juego
 	                case 1:
 	                    mostrarParametros(document);
+	                    break;
 	                // Modificar los parámetros del juego
 	                case 2:
 	                    modificarParametros(document, fileName);
+	                    break
 	                // Salir del programa
 	                case 3:
 	                    salir = true;
+	                    break
 	                // Opción no válida
 	                default:
 	                    System.out.println("Opcion no valida. Intente de nuevo.");
