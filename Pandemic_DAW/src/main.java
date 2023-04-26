@@ -22,7 +22,7 @@ import java.awt.Font;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-public class Menu extends JFrame implements ActionListener {
+public class main extends JFrame implements ActionListener {
 	private JButton nuevaPartida;
 	private JButton cargarPartida;
 	private JButton informacion;
@@ -32,22 +32,22 @@ public class Menu extends JFrame implements ActionListener {
 	private JButton salir;
 
 	public static void main(String[] args) {
-		Menu panel = new Menu(); // EL MAIN DONDE SE LLAMA AL MENU
+		main panel = new main(); // EL MAIN DONDE SE LLAMA AL MENU
 		panel.setVisible(true);
 
 	}
 
-	public Menu() {
+	public main() {
 		// EN ESTA SECCION PERSONALIZAMOS EL PANEL PRINCIPAL
 		setTitle("PANDEMIC");
 		setResizable(false);
 		setIconImage(Toolkit.getDefaultToolkit().getImage(
-				"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\pandemic2.png"));
+				".\\imagenes utilizadas\\pandemic2.png"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		getRootPane().setBorder(BorderFactory.createLineBorder(Color.GREEN));
 		setBounds(100, 100, 1200, 710);
 		ImageIcon imagenDeFondo = new ImageIcon(
-				"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\epico2.png");
+				".\\imagenes utilizadas\\epico2.png");
 		getContentPane().setLayout(null);
 
 		///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -193,7 +193,7 @@ public class Menu extends JFrame implements ActionListener {
 			setResizable(false); // QUE NO SE PUEDA CAMBIAR EL TAMAÑO DEL PANEL
 			setBounds(100, 100, 1200, 710);// POSICION Y TAMAÑO DEL PANEL
 			setIconImage(Toolkit.getDefaultToolkit().getImage(
-					"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\pandemic2.png"));// CAMBIAMOS
+					".\\imagenes utilizadas\\pandemic2.png"));// CAMBIAMOS
 																														// EL
 																														// LOGO
 																														// DE
@@ -205,7 +205,7 @@ public class Menu extends JFrame implements ActionListener {
 																														// PANDEMIC
 																														// NUESTRO
 			ImageIcon imagenDeFondo = new ImageIcon(
-					"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\fondoInformacion2.jpg"); // FONDO
+					".\\imagenes utilizadas\\fondoInformacion2.jpg"); // FONDO
 																																// DEL
 																																// PANEL
 			JLabel labelDeFondo = new JLabel(imagenDeFondo);
@@ -228,10 +228,10 @@ public class Menu extends JFrame implements ActionListener {
 			setResizable(false);
 			setBounds(100, 100, 1200, 710);
 			setIconImage(Toolkit.getDefaultToolkit().getImage(
-					"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\pandemic2.png"));
+					".\\imagenes utilizadas\\pandemic2.png"));
 
 			ImageIcon imagenDeFondo = new ImageIcon(
-					"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\proximamente.jpg");
+					".\\imagenes utilizadas\\proximamente.jpg");
 			JLabel labelDeFondo = new JLabel(imagenDeFondo);
 			labelDeFondo.setBounds(0, 0, 1184, 671);
 			getContentPane().add(labelDeFondo);
@@ -254,10 +254,10 @@ public class Menu extends JFrame implements ActionListener {
 			setResizable(false);
 			setBounds(100, 100, 1200, 710);
 			setIconImage(Toolkit.getDefaultToolkit().getImage(
-					"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\pandemic2.png"));
+					".\\imagenes utilizadas\\pandemic2.png"));
 
 			ImageIcon imagenDeFondo = new ImageIcon(
-					"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\proximamente.jpg");
+					".\\imagenes utilizadas\\proximamente.jpg");
 			JLabel labelDeFondo = new JLabel(imagenDeFondo);
 			labelDeFondo.setBounds(0, 0, 1184, 671);
 			getContentPane().add(labelDeFondo);
@@ -280,9 +280,9 @@ public class Menu extends JFrame implements ActionListener {
 			setResizable(false);
 			setBounds(100, 100, 1200, 710);
 			setIconImage(Toolkit.getDefaultToolkit().getImage(
-					"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\pandemic2.png"));
+					".\\imagenes utilizadas\\pandemic2.png"));
 			ImageIcon imagenDeFondo = new ImageIcon(
-					"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\proximamente.jpg");
+					".\\imagenes utilizadas\\proximamente.jpg");
 			JLabel labelDeFondo = new JLabel(imagenDeFondo);
 			labelDeFondo.setBounds(0, 0, 1184, 671);
 			getContentPane().add(labelDeFondo);
@@ -305,9 +305,9 @@ public class Menu extends JFrame implements ActionListener {
 			setResizable(false);
 			setBounds(390, 270, 626, 450);
 			setIconImage(Toolkit.getDefaultToolkit().getImage(
-					"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\pandemic2.png"));
+					".\\imagenes utilizadas\\pandemic2.png"));
 			ImageIcon imagenDeFondo = new ImageIcon(
-					"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\fondoautores.jpg");
+					".\\imagenes utilizadas\\fondoautores.jpg");
 			JLabel labelDeFondo = new JLabel(imagenDeFondo);
 			labelDeFondo.setBounds(0, 0, 500, 671);
 			getContentPane().add(labelDeFondo);
@@ -331,9 +331,9 @@ public class Menu extends JFrame implements ActionListener {
 			setResizable(false);
 			setBounds(520, 270, 350, 350);
 			setIconImage(Toolkit.getDefaultToolkit().getImage(
-					"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\pandemic2.png"));
+					".\\imagenes utilizadas\\pandemic2.png"));
 			ImageIcon imagenDeFondo = new ImageIcon(
-					"C:\\Users\\La T0sta-D0rA\\eclipse-workspace\\MENU PANDEMIC\\imagenes utilizadas\\fondoversion.jpg");
+					".\\imagenes utilizadas\\fondoversion.jpg");
 			JLabel labelDeFondo = new JLabel(imagenDeFondo);
 			getContentPane().add(labelDeFondo);
 
